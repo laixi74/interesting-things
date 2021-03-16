@@ -2,54 +2,16 @@
     import Header from "$components/Header.svelte"
     import Nav from "$components/Nav.svelte"
     import Footer from '$components/Footer.svelte'  
-import Leopards from "./leopards.svelte"
 </script>
-<Nav />
-<Header />
 
+
+
+<Header />
+<Nav />
 
 <main>
-    <!--style one
-    <div class="container has-text-centered">
-    <p>
-        ndimentum id venenatis a. Sed enim ut sem viv
-        erra aliquet eget sit. Accumsan lacus vel facilisis
-        . Parturient montes nascetur ridiculus mus. Nam a
-        t lectus urna duis. Diam quis enim lobortis sceler
-        isque. Vitae tortor condimentum lacinia quis vel 
-        eros. Consequat nisl vel pretium lectus quam. Viv
-        erra orci sagittis eu volunenatis a. Sed enim ut sem viv
-        erra aliquet eget sit. Accumsan lacus vel facilisis
-        . Parturient montes nascetur ridiculus mus. Nam a
-        t lectus urna duis. Diam quis enim lobortis sceler
-        isque. Vitae tortor condimentum lacinia quis vel 
-        eros. Consequat nisl vel pretium lectus quam. Viv
-        erra orci sagittis eu volutpat odio facilisis. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Elementum facilisis leo vel fringilla est ullamcorper eget. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Arcu non sodales neque sodales ut etiam sit amet nisl. Viverra ipsum nunc aliquet bibendum enim facilisis gravida. Arcu risus quis varius quam quisque. Quam a
-        dipiscing vitae proin sagittis nisl rhoncutpat odio facilisis. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Elementum facilisis leo vel fringilla est ullamcorper eget. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Arcu non sodales neque sodales ut etiam sit amet nisl. Viverra ipsum nunc aliquet bibendum enim facilisis gravida. Arcu risus quis varius quam quisque. Quam a
-        dipiscing vitae proin sagittis nisl rhoncus matt
-    </p>
-    <img src="img.jpeg" alt="dd"/>
-    <p>
-        nenatis a. Sed enim ut sem viv
-        erra aliquet eget sit. Accumsan lacus vel facilisis
-        . Parturient montes nascetur ridiculus mus. Nam a
-        t lectus urna duis. Diam quis enim lobortis sceler
-        isque. Vitae tortor condimentum lacinia quis vel 
-        eros. Consequat nisl vel pretium lectus quam. Viv
-        erra orci sagittis eu volutpat odio facilisis. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Elementum facilisis leo vel fringilla est ullamcorper eget. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Arcu non sodales neque sodales ut etiam sit amet nisl. Viverra ipsum nunc aliquet bibendum enim facilisis gravida. Arcu risus quis varius quam quisque. Quam a
-        dipiscing vitae proin sagittis nisl rhoncunenatis a. Sed enim ut sem viv
-        erra aliquet eget sit. Accumsan lacus vel facilisis
-        . Parturient montes nascetur ridiculus mus. Nam a
-        t lectus urna duis. Diam quis enim lobortis sceler
-        isque. Vitae tortor condimentum lacinia quis vel 
-        eros. Consequat nisl vel pretium lectus quam. Viv
-        erra orci sagittis eu volutpat odio facilisis. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Elementum facilisis leo vel fringilla est ullamcorper eget. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Arcu non sodales neque sodales ut etiam sit amet nisl. Viverra ipsum nunc aliquet bibendum enim facilisis gravida. Arcu risus quis varius quam quisque. Quam a
-        dipiscing vitae proin sagittis nisl rhoncu
-    </p>
-</div>-->
-    <!--style two
-    <h2 class="subtitle has-text-centered">Felidae</h2> 
-    
+    <h2 class="subtitle has-text-centered">Tiger</h2> 
+
     <div class="columns">
         <div class="column"><img src="cat.jpeg" alt="cat" /></div>
         <div class="column is-three-fifths">
@@ -180,60 +142,11 @@ import Leopards from "./leopards.svelte"
         </div>
         <div class="column "><img src="cat.jpeg" alt="cat"/></div>
     </div>
--->
-
-
-    <!--
-     <div class="columns is-mobile is-centered">
-         <div class="column is-half">
-        <p class="bd-notification is-primary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-             non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                     labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus 
-                     egestas. Eget arcu dictum varius duis. Sed risus pretium quam vulputate 
-                     dignissim suspendisse in. Purus semper eget duis at tellus at urna condimen
-                     tum. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et.
-                     cibus interdum posuere lorem ipsum dolor sit amet consectetur. Egestas preti
-                     um aenean pharetra magna. Placerat vestibulum lectus
-                     mauris ultrices eros in. Mollis aliquam ut porttitor leo.
-            </p>
-            </div>
-        </div>
-    
-    <div class="columns is-mobile is-centered">
-        <div >
-            <div class="bd-notification is-primary"> <img src="img.jpeg" alt="ff"/> </div>
-        </div>
-    </div>
-
-    <div class="columns is-mobile is-centered">
-        <div class="column is-half">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                     labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus 
-                     egestas. Eget arcu dictum varius duis. Sed risus pretium quam vulputate 
-                     dignissim suspendisse in. Purus semper eget duis at tellus at urna condimen
-                     tum. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et.
-                     cibus interdum posuere lorem ipsum dolor sit amet consectetur. Egestas preti
-                     um aenean pharetra magna. Placerat vestibulum lectus
-                     mauris ultrices eros in. Mollis aliquam ut porttitor leo.
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                     labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus 
-                     egestas. Eget arcu dictum varius duis. Sed risus pretium quam vulputate 
-                     dignissim suspendisse in. Purus s
-                </p>
-        </div>
-    </div>
-    -->
 </main>
 
+
 <Footer />
-<!--style two
+
 <style>
     img{
         width:30em;
@@ -243,6 +156,7 @@ import Leopards from "./leopards.svelte"
      .right{
         margin-right:20em;
         margin-bottom:4em;
+        
     }
 
     .left{
@@ -267,22 +181,8 @@ import Leopards from "./leopards.svelte"
 
     hr{
         width:90em;
-        margin-left:6em;
+        margin-left:19em;
         margin-top:2em;
         margin-bottom:6em;
     }
-</style> -->
-
-
-
-<!-- style one
-<style>
-    p{
-        margin-bottom:10px;
-    }
-
-    img{
-        width:30em;
-    }
-</style>
--->
+</style> 
