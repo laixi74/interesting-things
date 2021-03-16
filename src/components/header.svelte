@@ -30,3 +30,12 @@ h2{
 }
 </style>
 -->
+
+<!--style three-->
+<style>
+    h1{
+        font-family: 'Berkshire Swash', cursive;
+        font-size:3em;
+        color:#D95D39;
+    }
+</style>

@@ -44,3 +44,16 @@
  
   </style>
  -->
+
+ <!--style three-->
+ <style>
+   nav a{
+    font-family: 'Kalam', cursive;
+    font-size:2em;
+    color:#F0A202;
+
+   }
+   a:hover{
+        color:#F18805;
+    }
+ </style>
