@@ -76,6 +76,7 @@
        t lectus urna duis. Diam quis enim lobortis sceler
        isque. Vitae tortor condimentum lacinia quis vel 
        eros. Consequat nisl v
+       <img class="c-img" src="cat.jpeg" alt="ggg" />
     </div>
     <div class="column ">
         <h3>subtitle</h3>
@@ -99,6 +100,7 @@
        t lectus urna duis. Diam quis enim lobortis sceler
        isque. Vitae tortor condimentum lacinia quis vel 
        eros. Consequat nisl v
+       <img class="c-img" src="img.jpeg" alt="ggg" />
     </div>
     <div class="column ">
         <h3>subtitle</h3>
@@ -122,6 +124,7 @@
      t lectus urna duis. Diam quis enim lobortis sceler
      isque. Vitae tortor condimentum lacinia quis vel 
      eros. Consequat nisl v
+     <img class="c-img" src="lepoard.jpg" alt="ggg" />
     </div>
   </div>
 
@@ -153,5 +156,7 @@
         font-size:2em;
         color:#F18805;
     }
-    
+    .c-img{
+        margin-top:2em;
+    }
 </style>
