@@ -386,7 +386,6 @@ import Leopards from "./leopards.svelte"
     -->
 </main>
 
-<Footer />
 <!--style two
 <style>
     img{
