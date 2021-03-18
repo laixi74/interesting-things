@@ -312,14 +312,13 @@
     }
     img {
         width: 100%;
-        height: 40em;
-        margin-bottom: 6em;
+        margin-bottom: 5em;
         margin-top: 9em;
     }
     .column {
         margin-left: 4em;
         margin-right: 2em;
-        margin-bottom: 3em;
+        margin-bottom: 2em;
         font-family: "Pragati Narrow", sans-serif;
     }
     h2 {
@@ -329,5 +328,26 @@
     }
     .c-img {
         margin-top: 2em;
+    }
+
+    @media screen and (max-width: 600px){
+       p{
+           margin-left: 4em;
+           margin-right: 2em;
+           margin-bottom:3em;
+       } 
+       .c-img{
+           margin-top:60px;
+           margin-bottom:0em;
+           height:24em;
+       }
+
+       img{
+           margin-bottom:4em;
+           margin-top:20px;
+       }
+    .footer{
+        height:40px;
+    }
     }
 </style>
