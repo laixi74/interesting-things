@@ -8,8 +8,8 @@
 <Nav />
 <Header />
 
+
 <main>
-    <main>
         <h2 class="subtitle has-text-centered">Fedile</h2>
 
         <p>
@@ -398,7 +398,7 @@
         </div>
     </div>
     -->
-</main>
+
 
 <!--style two
 <style>
